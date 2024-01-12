@@ -1,7 +1,6 @@
 body {
     display: flex;
     flex-direction: column;
-    background-color: #1f2937;
     border: 1px solid red;
     height: 100vh;
 }
@@ -11,12 +10,23 @@ body {
     color: #f9faf8;
 }
 
+.header, .header2, .footer {
+    background-color: #1f2937;
+}
+
+.center {
+    border: 1px solid white;
+    display: flex;
+    align-items: center;
+    width: 1000px;
+}
+
 /*HEADER SECTION */
 
 .header {
     display: flex;
     align-items: center;
-    padding: 5px 100px;
+    padding: 0 100px;
     justify-content: center;
 }
 
@@ -39,28 +49,39 @@ a {
 
 /*  UNDER HERADER (2) */
 
-img {
-    width: 350px;
+.img-placeholder {
+    background-color: hsl(0, 0%, 47%);
+    flex: 1;
     height: 200px;
-    border: 1px solid rgb(0, 183, 255);
-    border-radius: 20% 5%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.img-placeholder img  {
+    max-width: 200px;
+}
+
+.center.content1 {
+    flex-direction: row-reverse;
+    gap: 5px;
+    justify-content: space-between;
 }
 
 .header2 {
     display: flex;
     align-items: center;
+    justify-content: center;
     border: 1px yellow solid;
-    flex-direction: row-reverse;
-    padding: 100px;
-    gap: 50px;
+    padding: 50px 100px;
+    justify-content: center;
 }
 
 .left-content {
-    flex: 1;
     display: flex;
     flex-direction: column;
     border: 1px solid rgb(0, 238, 255);
-    gap: 15px;
+    flex: 1;
 }
 
 .main-title.text {
@@ -98,20 +119,23 @@ button {
 .container1 {
     background-color: #fff;
     display: flex;
-    flex-direction: column;
-    flex: 1;
+    flex-direction: row;
+    justify-content: center;
 }
 
+
 .img-grid img {
+    border: 3px solid rgb(0, 183, 255);
+    border-radius: 20% 5%;
     max-width: 150px;
     max-height: 150px;
-    border-radius: 15px;
+    border-radius: 20px;
 }
 
 .img-grid {
     display: flex;
     flex-wrap: wrap;
-    padding: 25px 100px 100px 100px;
+    padding: 25px 25px 100px 25px;
     border: 1px solid black;
     justify-content: center;
     gap: 50px;
@@ -135,5 +159,32 @@ button {
     padding: 25px 0;
 }
 
+/* CONTAINER 2 */
+.container2 {
+    display: flex;
+    background-color: #e5e7eb;
+    justify-content: center;
+    align-items: center;
+}
+
+.center.content3 {
+    display: flex;
+    flex-direction: column;
+    padding: 75px;
+}
+
+.quote.text {
+    font-size: 26px;
+    font-weight: lighter;
+    font-style: italic;
+    color: #1f2937;
+
+}
+
+.quoteer {
+    font-weight: bold;
+    font-size: 20px;
+    align-self: flex-end;
+}
 
 
