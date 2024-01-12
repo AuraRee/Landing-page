@@ -170,7 +170,7 @@ button {
 .center.content3 {
     display: flex;
     flex-direction: column;
-    padding: 75px;
+    padding: 75px 300px;
 }
 
 .quote.text {
@@ -187,4 +187,34 @@ button {
     align-self: flex-end;
 }
 
+/* CONTAINER 3*/
 
+.container3 {
+    display: flex;
+    border: 1px solid purple;
+    padding: 100px 0px;
+    justify-content: center;
+    align-items: center;
+}
+
+.center.content4 {
+    background-color: #3882f6;
+    display: flex;
+    justify-content: space-between;
+    padding: 50px 200px;
+    border: 1px solid #1f2937;
+    border-radius: 15px;
+}
+
+.left-call {
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+    color: #fff;
+    gap: 2px; 
+    font-size: 20px;
+}
+
+.right-signup {
+    align-self: flex-end;
+}
