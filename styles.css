@@ -47,6 +47,17 @@ a {
     font-size: 18px;
 }
 
+.center.navigation {
+    gap: 20px;
+}
+
+.web-logo {
+    width: 50px;
+    height: 50px;
+    background-color: antiquewhite;
+    border-radius: 100%;
+
+}
 
 /*  UNDERNEATH HEADER (2) */
 
