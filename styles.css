@@ -171,6 +171,7 @@ button {
     display: flex;
     flex-direction: column;
     padding: 75px 300px;
+    width: 1000px;
 }
 
 .quote.text {
@@ -192,18 +193,20 @@ button {
 .container3 {
     display: flex;
     border: 1px solid purple;
-    padding: 100px 0px;
+    padding: 100px 0 50px 0;
     justify-content: center;
     align-items: center;
+    flex-direction: column;
+    gap: 20px;
 }
 
 .center.content4 {
     background-color: #3882f6;
     display: flex;
     justify-content: space-between;
-    padding: 50px 200px;
-    border: 1px solid #1f2937;
+    padding: 50px 100px;
     border-radius: 15px;
+    width: 600px;
 }
 
 .left-call {
@@ -211,8 +214,8 @@ button {
     flex-direction: column;
     gap: 2px;
     color: #fff;
-    gap: 2px; 
-    font-size: 20px;
+    gap: px; 
+    font-size: 16px;
 }
 
 .right-signup {
