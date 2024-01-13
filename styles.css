@@ -147,6 +147,9 @@ button {
     flex: 1.5;
 }
 
+.center.content2 {
+    border: 3px solid yellowgreen;
+}
 
 .img-grid img {
     border: 3px solid rgb(0, 183, 255);
