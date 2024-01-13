@@ -28,7 +28,7 @@ body {
     align-items: center;
     padding: 0 100px;
     justify-content: center;
-    flex-grow: 0;
+    flex: initial;
 }
 
 ul {
@@ -79,6 +79,7 @@ a {
     border: 1px yellow solid;
     padding: 50px 100px;
     justify-content: center;
+    flex: 1;
 }
 
 .left-content {
@@ -128,6 +129,7 @@ button {
     display: flex;
     flex-direction: row;
     justify-content: center;
+    flex: 1.5;
 }
 
 
@@ -172,6 +174,7 @@ button {
     background-color: #e5e7eb;
     justify-content: center;
     align-items: center;
+    flex: 1;
 }
 
 .center.content3 {
@@ -206,6 +209,7 @@ button {
     align-items: center;
     flex-direction: column;
     gap: 20px;
+    flex: 1;
 }
 
 .center.content4 {
@@ -240,12 +244,13 @@ button {
     align-items: center;
     padding: 0;
     margin: 0;
+    flex-grow: 0;
 }
 
 .static {
     width: 200px;
     height: 100px;
     background-color: whitesmoke;
-    flex-grow: 0;
+    flex: initial;
 }
 
