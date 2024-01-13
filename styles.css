@@ -28,6 +28,7 @@ body {
     align-items: center;
     padding: 0 100px;
     justify-content: center;
+    flex-grow: 0;
 }
 
 ul {
@@ -228,3 +229,23 @@ button {
 .right-signup {
     align-self: flex-end;
 }
+
+/* FOOTER SECTION */
+
+.footer {
+    display: flex;
+    color: #fff;
+    font-size: smaller;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0;
+    margin: 0;
+}
+
+.static {
+    width: 200px;
+    height: 100px;
+    background-color: whitesmoke;
+    flex-grow: 0;
+}
+
